@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mind-mate-final-edition/sw.js', { scope: '/mind-mate-final-edition/' })})}
